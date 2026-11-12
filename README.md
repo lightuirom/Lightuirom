@@ -2,75 +2,47 @@
   <img loading="lazy" src="readme-res/banner.png"/>
 </h1>
 <p align="center">
-  <a href="https://github.com/ExtremeXT/ExtremeROM/blob/fifteen/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/ExtremeXT/ExtremeROM?style=for-the-badge&logo=github"/></a>
-  <a href="https://github.com/ExtremeXT/ExtremeROM/commits/fifteen"><img loading="lazy" src="https://img.shields.io/github/last-commit/ExtremeXT/ExtremeROM/fifteen?style=for-the-badge"/></a>
-  <a href="https://github.com/ExtremeXT/ExtremeROM/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/ExtremeXT/ExtremeROM?style=for-the-badge"/></a>
-  <a href="https://github.com/ExtremeXT/ExtremeROM/graphs/contributors"><img loading="lazy" src="https://img.shields.io/github/contributors/ExtremeXT/ExtremeROM?style=for-the-badge"/></a>
+  <a href="https://github.com"><img loading="lazy" src="https://shields.io"/></a>
+  <a href="https://github.com"><img loading="lazy" src="https://shields.io"/></a>
+  <a href="https://github.com"><img loading="lazy" src="https://shields.io"/></a>
+  <a href="https://github.com"><img loading="lazy" src="https://shields.io"/></a>
 </p>
-<p align="center">ExtremeROM Nexus is a work-in-progress custom firmware for Samsung Galaxy devices.</p>
+<p align="center">LightROMUI is an ultra-lightweight, core-apps-only custom One UI firmware for Samsung Galaxy devices.</p>
 
 <p align="center">
-  <a href="https://t.me/extremerom">💬 Telegram</a>
-  <a href="https://github.com/ExtremeXT/ExtremeROM/wiki">📖 Wiki</a>
-  <a href="https://github.com/ExtremeXT/ExtremeROM/blob/fifteen/CHANGELOG.md">📝 Changelog</a>
-  <a href="https://github.com/ExtremeXT/ExtremeROM/blob/fifteen/MAINTAINERS">🧑‍💻 Maintainers</a>
+  <a href="https://github.com">📖 Wiki</a>
+  <a href="https://github.com">📦 Releases</a>
+  <a href="https://github.com">⚠ Issues</a>
 </p>
 
-# What is ExtremeROM Nexus?
-ExtremeROM Nexus is a work-in-progress custom firmware for Samsung Galaxy devices.
+# What is LightROMUI?
+LightROMUI is a heavily stripped-down custom One UI firmware built for maximum speed, minimal RAM footprint, and improved battery life on Samsung Galaxy devices.
 
-It's based on the latest and greatest iteration of Samsung's UX and it also includes additional features and tweaks to ensure the best possible experience out of the box.
+Built upon the ExtremeROM / UN1CA build system, LightROMUI removes non-essential Samsung bloatware, background telemetry, and redundant services—leaving only core system functionality and essential daily-driver apps out of the box.
 
-It is based on the UN1CA build system which allows automatic downloading/extraction of the firmware, applying the required patches and generating a flashable zip package for the specified target device.
+LightROMUI supports devices using the Exynos 990 SoC (starting with the Galaxy S20 Ultra `z3s`).
 
-ExtremeROM Nexus supports devices using the Exynos 9820, Exynos 990, Exynos 2100 and Exynos 2200 SoCs
-
-Any form of contribution, suggestions, bug report or feature request for the project will be welcome.
-
-# EOL Notice
-As of 04-01-2026, ExtremeROM is officially considered end of life until further notice.
-
-I reserve all rights to this project and any future continuations or spin-offs.
-
-No updates or support will be provided, but the repository will remain archived publicly.
-
-This notice does NOT change the GPLv3 license of this project.
-
-The unfinished/WIP sixteen branch has also been published for any developer that wishes to utilize code from it, while faithfully adhering to the GPLv3 licensing etiquette.
-
-I wish to thank everyone for the support given during the lifetime of this project. Thanks to all maintainers and users for everything.
+Any form of contribution, suggestions, bug report or feature request for the project is welcome.
 
 # Features
-- Based on the latest stable OneUI 7 Galaxy S24 FE firmware
-- All software features from S24 FE
-- S25 Ultra CSC, ringtones and more
-- Moderately Debloated
+- Based on OneUI 7 Galaxy S24 FE firmware (via ExtremeROM / UN1CA base)
+- **Ultra-Stripped Core-Only Setup:** Aggressive whitelist debloat removing non-essential system services, Bixby, AR Emoji, Game Launcher, and carrier bloat
 - Heavily DeKnoxed
 - Full SELinux Support
-- Full Galaxy AI support
-- Completely upstreamed kernels for all officially supported devices
-- Now Brief Support
-- Adaptive color tone support
-- Super HDR support
-- Adaptive Brightness support
+- Completely upstreamed kernels
+- Adaptive color tone & Super HDR support
+- Adaptive Brightness & Adaptive Refresh Rate support
 - Full CSC support
-- Adaptive Refresh Rate support (for some models)
-- Multi-User support
-- AppLock support
+- Multi-User & AppLock support
 - EroFS partitions
-- Stock models in Settings and user apps
-- High end animations
-- Native/live blur support
-- Debloated from useless system services/additional apps
+- High end animations & Native/live blur support
 - [BluetoothLibraryPatcher](https://github.com/3arthur6/BluetoothLibraryPatcher) included
 - [KnoxPatch](https://github.com/salvogiangri/KnoxPatch) implemented in system frameworks
-- Extra mods (Disable Secure Flag, OutDoor mode, more coming soon)
+- Extra mods (Disable Secure Flag, OutDoor mode)
 - Extra CSC features (Call recording, Network speed in status bar, 5GHz Hotspot)
-- Countless other small optimizations
-- More that I can't remember right now and will have to be added in the future
 
 # Bugs
-See the <a href="https://github.com/ExtremeXT/ExtremeROM/issues">⚠ Issues</a> tab
+See the <a href="https://github.com">⚠ Issues</a> tab
 
 # Licensing
 This project is licensed under the terms of the [GNU General Public License v3.0](LICENSE). External dependencies might be distributed under a different license, such as:
@@ -101,16 +73,17 @@ This project is licensed under the terms of the [GNU General Public License v3.0
 ```
 
 # Credits
-A big thanks goes to the following for their invaluable contributions in no particular order (MORE INFO AND PEOPLE: TO BE WRITTEN)
-- **[salvogiangri](https://github.com/salvogiangri)** for the UN1CA build system, OneUI patches, and general help and support while developing
-- **[Ocin4Ever](https://github.com/Ocin4Ever)** for a lot of help especially on smali, advice and emotional support :D
-- **[Igor](https://github.com/BotchedRPR)** for getting me into porting, teaching me the basics, and emotional support down the road
+A big thanks goes to the ExtremeROM and UN1CA teams and contributors whose foundational work makes LightROMUI possible:
+- **[ExtremeXT](https://github.com/ExtremeXT)** for ExtremeROM Nexus and Exynos device/vendor bringup
+- **[salvogiangri](https://github.com/salvogiangri)** for the UN1CA build system, OneUI patches, and general help and support
+- **[Ocin4Ever](https://github.com/Ocin4Ever)** for smali help and advice
+- **[Igor](https://github.com/BotchedRPR)** for porting guidance and support
 - **[Halal Beef](https://github.com/halal-beef)** for lk3rd, testing and misc help
 - **[Emad](https://github.com/emadhamid7)** for help with S10-specific fixes
-- **[Duhan](https://github.com/duhansysl)** for help with vendor backports, a lot of fixes and advice
-- **[Anan](https://github.com/ananjaser1211)** for all of his contributions to OneUI porting
-- **[PeterKnecht93](https://github.com/PeterKnecht93)** for help with smali and a lot of misc fixes
-- **[tsn](https://github.com/tisenu100)** for some smali fixes and advice
+- **[Duhan](https://github.com/duhansysl)** for vendor backports and fixes
+- **[Anan](https://github.com/ananjaser1211)** for OneUI porting contributions
+- **[PeterKnecht93](https://github.com/PeterKnecht93)** for smali and misc fixes
+- **[tsn](https://github.com/tisenu100)** for smali fixes and advice
 - **[Nguyen Long](https://github.com/LumiPlayground)** for misc fixes and support
 - **[AlexFurina](https://github.com/AlexFurina)** for S10 specific fixes
 - **[Luphaestus](https://github.com/Luphaestus)** for Note 20 specific fixes
@@ -123,35 +96,6 @@ A big thanks goes to the following for their invaluable contributions in no part
 - **[Renox](https://github.com/renoxtv)** for overlay patches and testing
 - **[Ksawlii](https://github.com/Ksawlii)** for updating the build system and FOD animation patch
 - **[nalz0](https://github.com/nalz0)** for Multi-User support
-- **[EndaDwagon](https://github.com/EndaDwagon)** for the big majority of the ExtremeROM Wiki
-- **[Oskar](https://github.com/osrott61-gh)** for Odinpacks, Building before we started using CI, Wiki
-- **[Mesazane](https://github.com/Mesazane)** for Building before we started using CI
-- **[Dupa](https://github.com/dupazlasu)** for Maintaining S22 Series (ROM + Kernel)
-- **[RayShocker](https://github.com/RayShocker)** for HRM fix
-- **[Szucsy92](https://github.com/Szucsy92)** for SingleTake fix
-- **[Kurt](https://github.com/kurtbahartr)** for ASCII art and some minor fixes
-- **@april865** (TG) for ExtremeROM Nexus banner
-- And everyone else who aided in testing, wiki, translations etc!
-
-Original UN1CA credits:
-- **[ShaDisNX255](https://github.com/ShaDisNX255)** for his help, time and for his [NcX ROM](https://github.com/ShaDisNX255/NcX_Stock) which inspired this project
-- **[DavidArsene](https://github.com/DavidArsene)** for his help and time
-- **[paulowesll](https://github.com/paulowesll)** for his help and support
-- **[Simon1511](https://github.com/Simon1511)** for his support and some of the device-specific patches
-- **[ananjaser1211](https://github.com/ananjaser1211)** for troubleshooting and his time
-- **[iDrinkCoffee](https://github.com/iDrinkCoffee-TG)** and **[RisenID](https://github.com/RisenID)** for documentation revisioning
-- **[LineageOS Team](https://www.lineageos.org/)** for their original [OTA updater implementation](https://github.com/LineageOS/android_packages_apps_Updater)
-- *All the UN1CA project contributors and testers ❤️*
-
-# Kernel sources and device trees
-- 9820 Kernel Source Code (Maintainer: @ExtremeXT): https://github.com/ExtremeXT/M62-backport
-- 9820 Device Tree Code (Maintainer: @ExtremeXT): https://github.com/ExtremeXT/android_device_samsung_exynos9820
-- 990 Kernel Source Code (Maintainer: @ExtremeXT): https://github.com/ExtremeXT/990_upstream_v2
-- 990 Device Tree Code (Maintainer: @ExtremeXT): https://github.com/ExtremeXT/android_device_samsung_exynos9820
-- 2100 Kernel Source Code (Maintainer: @xfwdrev/@maximusXZ): https://github.com/xfwdrev/android_kernel_samsung_ex2100
-- 2100 Device Tree Code (Maintainer: @xfwdrev/@maximusXZ): https://github.com/xfwdrev/android_device_samsung_exynos2100
-- 2200 Kernel Source Code (Maintainer: @dupazlasu): https://github.com/ExtremeXT/android_kernel_samsung_s5e9925
-- 2200 Device Tree Code (Maintainer: @dupazlasu): https://github.com/dupazlasu/android_device_samsung_s5e9925
-
-# Stargazers over time
-[![Stargazers over time](https://starchart.cc/ExtremeXT/ExtremeROM.svg)](https://starchart.cc/ExtremeXT/ExtremeROM)
+- **[EndaDwagon](https://github.com/EndaDwagon)** for the upstream Wiki documentation
+- **[Oskar](https://github.com/osrott61-gh)** for Odinpacks and Wiki contributions
+- **[Mesazane](https://github.com/Mesazane)** for early build contributions
